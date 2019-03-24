@@ -61,6 +61,7 @@ h2 {
 
     margin: auto;
     margin-top: 20px;
+
     width: 960px;
      background: white;
     margin-bottom: 30px;
@@ -156,7 +157,7 @@ hr {
         position: static;
     }
     #content {
-        width: 100%;
+        width: 96%;
     }
 
 
@@ -165,12 +166,14 @@ hr {
 
     .wrapper {
         width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .container {
         width: 100%;
     }
     #content {
-        width: 100%;
+        width: 96%;
     }
 
  }
@@ -178,12 +181,14 @@ hr {
 
     .wrapper {
         width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .container {
         width: 100%;
     }
     #content {
-        width: 100%;
+        width: 96%;
     }
 
  }
