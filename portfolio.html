@@ -8,8 +8,12 @@
     <title>Medric A. Riley</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Reset -->
     <link rel="reset" href="assets/css/reset.css">
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 
 <!--beginning of the body section-->
@@ -45,8 +49,8 @@
         <hr>
         <!-- generic placeholders for portfolio content -->
         <div class="portfolio_container">
-            <div class="container_pic">
-                    <button id="banner">Coming Soon!</button>
+            <div class="container-pic star-wars">
+                    <button id="banner" class="star-wars-button">Star Wars RPG</button>
             </div>
         </div>
         <div class="portfolio_container">
@@ -81,6 +85,12 @@
                                 </div>
           
     </div>
+
+    <script>
+            $(".star-wars-button").on("click",function() {
+                    window.location="https://medricr.github.io/unit-4-game/";
+            })
+    </script>
    
 </body>
 </html>

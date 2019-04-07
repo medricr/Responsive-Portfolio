@@ -141,6 +141,11 @@ hr {
      height: 130px;
  }
 
+ .star-wars {
+     background: url("../images/obi_wan.jpg");
+     height: 130px;
+ }
+
  #banner {
      width: 100%;
      margin: 0 auto;
